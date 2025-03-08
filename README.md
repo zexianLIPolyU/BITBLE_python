@@ -323,4 +323,5 @@ The matrix to be encoded (A0):
 ```
 
 
-
+## Matlab- implementation
+Link: [https://github.com/zexianLIPolyU/BITBLE-SIABLE_matlab](https://github.com/zexianLIPolyU/BITBLE-SIABLE_matlab).
