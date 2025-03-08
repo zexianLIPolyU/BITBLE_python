@@ -167,8 +167,10 @@ The state to be prepared (s0):
 
     print('The encoded matrix (A):')
     print(res_matrix)
+    print('')
     print('The matrix to be encoded (A0):')
     print(matrix)
+    print('')
     print('||A - A0||_F:')
     print(np.linalg.norm(res_matrix - matrix))
 ```
@@ -205,11 +207,13 @@ The encoded matrix (A):
  [-0.15682983+0.j -0.07541978+0.j  0.19680222+0.j  0.01425079+0.j]
  [-0.32159963+0.j  0.2243003 +0.j -0.33002954+0.j -0.19212792+0.j]
  [-0.03625142+0.j  0.44664007+0.j  0.12867116+0.j  0.47649168+0.j]]
+
 The matrix to be encoded (A0):
 [[-0.28255199 -0.17499563  0.05215907 -0.2713498 ]
  [-0.15682983 -0.07541978  0.19680222  0.01425079]
  [-0.32159963  0.2243003  -0.33002954 -0.19212792]
  [-0.03625142  0.44664007  0.12867116  0.47649168]]
+
 ||A - A0||_F:
 4.838852477487593e-16
 ```
@@ -237,8 +241,10 @@ The matrix to be encoded (A0):
 
     print('The encoded matrix (A):')
     print(res_matrix)
+    print('')
     print('The matrix to be encoded (A0):')
     print(matrix)
+    print('')
     print('||A - A0||_F:')
     print(np.linalg.norm(res_matrix - matrix))
 
@@ -293,6 +299,7 @@ The encoded matrix (A):
   -0.00672616+0.29886571j]
  [ 0.26427384+0.11476363j -0.04505902+0.10454406j  0.10836367-0.36276957j
    0.04147132+0.31281208j]]
+
 The matrix to be encoded (A0):
 [[ 0.0717925 -0.29259169j -0.15164446+0.14305347j -0.07978028+0.04929215j
   -0.06278604+0.0579586j ]
@@ -302,6 +309,7 @@ The matrix to be encoded (A0):
   -0.00672616+0.29886571j]
  [ 0.26427384+0.11476363j -0.04505902+0.10454406j  0.10836367-0.36276957j
    0.04147132+0.31281208j]]
+
 ||A - A0||_F:
 4.637263367040817e-16
 ```
