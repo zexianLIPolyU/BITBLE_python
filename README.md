@@ -9,8 +9,8 @@ Binary Tree Block encoding for quantum circuits
 2. Create a virtual environment with Python 3.9.11 as an example
 
    ```
-   conda create -n quantum python=3.9.11 -y
-   conda activate quantum
+   conda create -n mindquantum python=3.9.11 -y
+   conda activate mindquantum
    ```
 
 ## Install Python packages
@@ -30,6 +30,12 @@ pip install pyqpanda
 ## Note
 
 Put the folder "BITBLE" under the root directory of your project
+
+## mindquantum - implementation
+
+
+
+
 
 ## pyqpanda - implementation
 
