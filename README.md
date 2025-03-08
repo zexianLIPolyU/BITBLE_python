@@ -2,30 +2,32 @@
 Binary Tree Block encoding for quantum circuits
 
 
-## Install Python
+## Install Python and Python pachages
 
 1. Download and install [Anaconda](https://www.anaconda.com/download)
 
-2. Create a virtual environment with Python 3.9.11 as an example
+2. Open the Anaconda Prompt
+   
+3. Create a virtual environment with Python 3.9.11 as an example
 
    ```
-   conda create -n mindquantum python=3.9.11 -y
-   conda activate mindquantum
+   conda create -n quantum python=3.9.11 -y
+   conda activate quantum
    ```
 
-## Install Python packages
+3. Install Python packages
 
-```
-pip install numpy
-```
-
-```
-pip install mindquantum
-```
-
-```
-pip install pyqpanda
-```
+   ```
+   pip install numpy
+   ```
+   
+   ```
+   pip install mindquantum
+   ```
+   
+   ```
+   pip install pyqpanda
+   ```
 
 ## Note
 
