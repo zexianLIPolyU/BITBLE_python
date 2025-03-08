@@ -47,7 +47,7 @@ Put the folder "BITBLE" under the root directory of your project
 1. Real amplitude state preparation
  ```
     from pyqpanda import *
-    from ble.qpanda import statepreparation
+    from BITBLE.qpanda import statepreparation
 
     n = 3
     epsilon = 0
@@ -97,7 +97,7 @@ The state to be prepared (s0):
 2. Complex amplitude state preparation
 ```
     from pyqpanda import *
-    from ble.qpanda import statepreparation
+    from BITBLE.qpanda import statepreparation
 
     n = 3
     epsilon = 0
@@ -154,7 +154,7 @@ The state to be prepared (s0):
 1. Real matrix encoding
  ```
     from pyqpanda import *
-    from ble.qpanda import blockencoding
+    from BITBLE.qpanda import blockencoding
     import numpy as np
 
     n = 3
@@ -228,7 +228,7 @@ The matrix to be encoded (A0):
 2. complex matrix encoding
 ```
     from pyqpanda import *
-    from ble.qpanda import blockencoding
+    from BITBLE.qpanda import blockencoding
     import numpy as np
 
     n = 3
