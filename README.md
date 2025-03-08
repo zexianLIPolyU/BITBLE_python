@@ -1,5 +1,5 @@
-# BLE
-Block encoding
+# BITBLE
+Binary Tree Block encoding for quantum circuits
 
 
 ## Install Python
