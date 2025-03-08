@@ -27,5 +27,8 @@ pip install mindquantum
 pip install pyqpanda
 ```
 
+## Note
+
+Put the folder "ble" under the root directory of your project
 
 
